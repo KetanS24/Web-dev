@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketan Ramkrishna Surashe - Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #38e4d5bd;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-container {
+            background-color: #caf5f5f8;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+            padding: 30px;
+            position: relative;
+        }
+        h1 {
+            
+            margin-top: 80px
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .graphics {
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(135deg, #161312, #2513ca);
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 15px 15px 0 0;
+            
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: -30px; /* Adjust this to ensure the image is over the graphic */
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border: 4px solid white; 
+          
+          
+        }
+       
+
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #3b5998;
+        }
+        .social-links a.linkedin {
+            background-color: #0077B5;
+        }
+        .social-links a.instagram {
+            background-color: #E1306C;
+        }
+        .social-links a.facebook {
+            background-color: #4267B2;
+        }
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- Graphic Header -->
+        <div class="graphics"></div>
+
+        <!-- Avatar Placeholder -->
+        <div class="avatar"></div>
+
+        <!-- Profile Info -->
+        <h1>Ketan Ramkrishna Surashe</h1>
+        <p>Age: 21</p>
+        <p>Bachelor of Engineering (BE) in Electronics and Telecommunication</p>
+        <p>Pune University, Graduated with Distinction</p>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ketan-surashe-824969208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+            " class="linkedin" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/ketan_s24/" class="instagram" target="_blank">Instagram</a>
+            <a href="https://m.facebook.com/ketan.surashe.7/
+            " class="facebook" target="_blank">Facebook</a>
+        </div>
+        <img src="IMG.jpg" alt="Ketan Ramkrishna Surashe" class="avatar">
+
+    </div>
+
+</body>
+</html>
